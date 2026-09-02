@@ -35,3 +35,29 @@
   - bugfix: fixes the weighing scale sometimes not tracking the weight of its occupant
       correctly. The "last reading" will now also update in real time as weight changes.
   - bugfix: fixes breasts sometimes not producing reagents after spawning
+2026-08-21:
+  Icepick200:
+  - rscadd: Added a set of ears and tail named "Alien Slug".
+  - bugfix: fixed the mootant (larger) ears from being offset from the base head.
+  Swan:
+  - bugfix: fixes teshari butts not showing. again.
+2026-08-22:
+  Swan:
+  - rscadd: replaces the progress bar moth with the gatito
+2026-08-23:
+  Swan:
+  - rscadd: Ports the HEF-T Scale from WG13
+  - code_imp: turns scale behavior into a component, which can be applied onto ANYTHING.
+2026-08-25:
+  Swan:
+  - rscadd: Adds the GATO birthday holiday, which starts on the second of august.
+2026-08-26:
+  Icepick200:
+  - rscadd: Ported kobold ears and horns from SS14
+2026-08-30:
+  Swan:
+  - rscadd: Adds the old space carps that can't teleport
+2026-08-31:
+  Swan:
+  - bugfix: Fixes the grey modular jumpsuit belly sprites not working on belly types
+      other than round and default GS.
