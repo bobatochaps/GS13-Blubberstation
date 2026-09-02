@@ -586,15 +586,22 @@ export function MainPage(props: MainPageProps) {
       break;
     case PrefPage.Visual:
       prefPageContents = (
-        <PreferenceList
-          randomizations={getRandomization(
-            contextualPreferences,
-            serverData,
-            randomBodyEnabled,
+        <>
+          {!data.master_erp_enabled && (
+            <NoticeBox warning>
+              Some character creation features are hidden due to your ERP preferences.
+            </NoticeBox>
           )}
-          preferences={contextualPreferences}
-          maxHeight="auto"
-        />
+          <PreferenceList
+            randomizations={getRandomization(
+              contextualPreferences,
+              serverData,
+              randomBodyEnabled,
+            )}
+            preferences={contextualPreferences}
+            maxHeight="auto"
+          />
+        </>
       );
       break;
     case PrefPage.Lore:
