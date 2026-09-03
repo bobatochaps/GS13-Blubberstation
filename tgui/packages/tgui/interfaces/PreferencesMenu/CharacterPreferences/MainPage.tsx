@@ -586,6 +586,7 @@ export function MainPage(props: MainPageProps) {
       break;
     case PrefPage.Visual:
       prefPageContents = (
+        // GS13 EDIT adds ERP master switch warning
         <>
           {!data.master_erp_enabled && (
             <NoticeBox>
