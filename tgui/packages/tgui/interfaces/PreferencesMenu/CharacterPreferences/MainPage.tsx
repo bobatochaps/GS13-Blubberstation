@@ -589,7 +589,7 @@ export function MainPage(props: MainPageProps) {
         <>
           {!data.master_erp_enabled && (
             <NoticeBox>
-              Some character creation features are hidden due to your ERP preferences.
+              Some character creation features are hidden due to your ERP settings. Check the ERP tab in the game settings.
             </NoticeBox>
           )}
           <PreferenceList
