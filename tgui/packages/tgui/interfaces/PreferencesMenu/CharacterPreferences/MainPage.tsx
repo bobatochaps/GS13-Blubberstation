@@ -602,6 +602,7 @@ export function MainPage(props: MainPageProps) {
             maxHeight="auto"
           />
         </>
+        // GS13 END EDIT
       );
       break;
     case PrefPage.Lore:
