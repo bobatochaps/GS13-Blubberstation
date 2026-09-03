@@ -588,7 +588,7 @@ export function MainPage(props: MainPageProps) {
       prefPageContents = (
         <>
           {!data.master_erp_enabled && (
-            <NoticeBox warning>
+            <NoticeBox>
               Some character creation features are hidden due to your ERP preferences.
             </NoticeBox>
           )}
