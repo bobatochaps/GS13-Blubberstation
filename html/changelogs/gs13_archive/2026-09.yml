@@ -66,3 +66,11 @@
       etc etc'
   - map: Added the Food Truck whiteship, available for use in the Fast Food role
   - map: GATO Fast Food map is guaranteed to spawn every round now
+2026-09-26:
+  Icepick200:
+  - rscadd: Added two new audial emotes and one visual emote, triggered by *creak,
+      *mufmoan, and *bubelch. Sprites for the belch visual made by Sooooope on the
+      discord.
+  Swan:
+  - rscadd: Added the Salamander and Matador guns, which are fattening weapons that
+      also deal stamina damage. Obtainable through cargo and the traitor uplink
