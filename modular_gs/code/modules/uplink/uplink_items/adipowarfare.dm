@@ -87,6 +87,13 @@
 	item = /obj/item/gun/energy/e_gun/fattening/antag
 	cost = 5
 
+/datum/uplink_item/adipowarfare/feeder_ebow
+	name = "Feeder's Mini Energy Crossbow"
+	desc = "A modified version of the standard mini energy crossbow, designed to fatten up a target while incapacitating them."
+	item = /obj/item/gun/energy/kinetic_accelerator/crossbow/feeder
+	cost = 2
+	cant_discount = TRUE
+
 //chems
 /datum/uplink_item/adipowarfare/lipoifier_beaker
 	name = "Beaker of Lipoifier"
@@ -147,6 +154,12 @@
 	name = "Fatoray Cannon"
 	item_type = /obj/item/gun/energy/fatoray/cannon
 	description = "A larger variant of the fatoray: a large laser cannon with calorite fattening lens. Its shots are harmless, but fatten the target. This model has about 10 shots, but they fatten up by a lot."
+	admin_note = "Useful for kink antags. Generally harmless. Fattens people."
+
+/datum/opposing_force_equipment/antagonist_powers/feeder_ebow
+	name = "Feeder's Mini Energy Crossbow"
+	item_type = /obj/item/gun/energy/kinetic_accelerator/crossbow/feeder
+	description = "A modified version of the standard mini energy crossbow, designed to fatten up a target while incapacitating them."
 	admin_note = "Useful for kink antags. Generally harmless. Fattens people."
 
 /datum/opposing_force_equipment/antagonist_powers/calorite_whip
