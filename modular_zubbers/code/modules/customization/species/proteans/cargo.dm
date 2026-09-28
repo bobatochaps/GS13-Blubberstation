@@ -1,7 +1,7 @@
 /datum/supply_pack/science/protean_organs
 	name = "Protean Organs"
-	desc = "Contains two sets of organs for Protean crewmembers."
-	contains = list(/obj/item/organ/stomach/protean = 3, /obj/item/organ/heart/protean = 2)
+	desc = "Contains three sets of organs for Protean crewmembers."
+	contains = list(/obj/item/organ/stomach/protean = 3, /obj/item/organ/heart/protean = 3)
 	crate_name = "\improper Protean organs"
 	crate_type = /obj/structure/closet/crate
 
