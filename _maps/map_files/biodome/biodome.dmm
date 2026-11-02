@@ -2625,7 +2625,6 @@
 /turf/closed/wall/r_wall,
 /area/station/engineering/atmos)
 "aXo" = (
-/obj/item/ai_module/reset,
 /obj/item/aicard,
 /obj/structure/table,
 /turf/open/floor/plating,
@@ -2751,7 +2750,6 @@
 	},
 /area/station/command/vault)
 "bal" = (
-/obj/machinery/computer/upload/borg,
 /obj/item/radio/intercom/directional/north{
 	broadcasting = 1;
 	frequency = 1447;
@@ -9312,7 +9310,7 @@
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "djH" = (
-/obj/item/food/grown/moonflower,
+/obj/item/food/grown/flower/moonflower,
 /turf/closed/mineral/random/stationside/asteroid/porus,
 /area/station/asteroid)
 "djP" = (
@@ -9572,7 +9570,7 @@
 "dqn" = (
 /obj/machinery/light/dim/directional/west,
 /obj/effect/landmark/start/hangover,
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/freezer,
 /area/station/commons/toilet)
 "dqw" = (
@@ -11724,7 +11722,7 @@
 /obj/effect/landmark/start/paramedic,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/duct,
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "edz" = (
@@ -16733,7 +16731,7 @@
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 4
 	},
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
 "fUR" = (
@@ -17871,9 +17869,6 @@
 /area/station/hallway/primary/starboard)
 "gqR" = (
 /obj/structure/table/wood/fancy/red,
-/obj/item/ai_module/reset/purge{
-	pixel_y = 11
-	},
 /obj/effect/spawner/random/aimodule/harmful,
 /obj/machinery/flasher/directional/west,
 /obj/machinery/door/window/brigdoor/left/directional/south{
@@ -22587,6 +22582,7 @@
 /area/station/security/courtroom)
 "iaQ" = (
 /obj/structure/table/wood,
+/obj/item/storage/photo_album/bar,
 /turf/open/floor/wood/tile,
 /area/station/service/bar)
 "iaT" = (
@@ -23825,7 +23821,7 @@
 /turf/open/floor/iron/dark/airless,
 /area/station/science/ordnance/freezerchamber)
 "iwR" = (
-/obj/machinery/computer/upload/ai,
+/obj/machinery/ai_law_rack/base/core,
 /obj/machinery/airalarm/directional/north,
 /obj/structure/window/reinforced/tinted/spawner/directional/west,
 /turf/open/floor/circuit/green,
@@ -23906,7 +23902,7 @@
 /turf/closed/wall/r_wall,
 /area/station/science/breakroom)
 "iyl" = (
-/obj/item/food/grown/moonflower,
+/obj/item/food/grown/flower/moonflower,
 /obj/structure/flora/bush/flowers_yw,
 /turf/open/misc/asteroid/airless,
 /area/station/asteroid)
@@ -25082,11 +25078,11 @@
 "iUm" = (
 /obj/machinery/light/small/directional/east,
 /obj/structure/table/wood,
-/obj/item/food/grown/harebell,
-/obj/item/food/grown/harebell,
-/obj/item/food/grown/harebell,
-/obj/item/food/grown/harebell,
-/obj/item/food/grown/harebell,
+/obj/item/food/grown/flower/harebell,
+/obj/item/food/grown/flower/harebell,
+/obj/item/food/grown/flower/harebell,
+/obj/item/food/grown/flower/harebell,
+/obj/item/food/grown/flower/harebell,
 /turf/open/floor/carpet,
 /area/station/service/chapel/funeral)
 "iUv" = (
@@ -29118,9 +29114,9 @@
 /area/station/command/vault)
 "kmv" = (
 /obj/structure/table,
-/obj/item/mmi,
-/obj/item/mmi,
-/obj/item/mmi,
+/obj/item/brain_processor/organic,
+/obj/item/brain_processor/organic,
+/obj/item/brain_processor/organic,
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/engineering/storage)
@@ -31951,7 +31947,6 @@
 /area/station/maintenance/aft)
 "liR" = (
 /obj/structure/table,
-/obj/item/ai_module/reset,
 /obj/machinery/light/directional/east,
 /turf/open/floor/circuit,
 /area/station/ai/upload/chamber)
@@ -37442,7 +37437,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/fore/upper)
 "mZD" = (
-/obj/item/relic,
+/obj/item/assembly/relic,
 /turf/open/misc/asteroid/airless,
 /area/station/asteroid)
 "mZP" = (
@@ -39793,25 +39788,25 @@
 /area/station/hallway/primary/aft)
 "nRr" = (
 /obj/structure/table/wood,
-/obj/item/food/grown/harebell,
-/obj/item/food/grown/harebell,
-/obj/item/food/grown/harebell,
-/obj/item/food/grown/harebell,
-/obj/item/food/grown/harebell,
+/obj/item/food/grown/flower/harebell,
+/obj/item/food/grown/flower/harebell,
+/obj/item/food/grown/flower/harebell,
+/obj/item/food/grown/flower/harebell,
+/obj/item/food/grown/flower/harebell,
 /obj/machinery/light/warm/directional/east,
-/obj/item/food/grown/poppy{
+/obj/item/food/grown/flower/poppy{
 	pixel_y = 2
 	},
-/obj/item/food/grown/poppy{
+/obj/item/food/grown/flower/poppy{
 	pixel_y = 2
 	},
-/obj/item/food/grown/poppy{
+/obj/item/food/grown/flower/poppy{
 	pixel_y = 2
 	},
-/obj/item/food/grown/poppy{
+/obj/item/food/grown/flower/poppy{
 	pixel_y = 2
 	},
-/obj/item/food/grown/poppy{
+/obj/item/food/grown/flower/poppy{
 	pixel_y = 2
 	},
 /turf/open/floor/carpet/lone/star,
@@ -56802,7 +56797,7 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/aft)
 "tBl" = (
-/obj/item/food/grown/moonflower,
+/obj/item/food/grown/flower/moonflower,
 /obj/item/grown/novaflower,
 /obj/structure/flora/bush/flowers_yw,
 /turf/open/misc/asteroid/airless,
@@ -58092,7 +58087,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/fore/upper)
 "tYH" = (
-/obj/item/relic,
+/obj/item/assembly/relic,
 /obj/item/bedsheet/black{
 	dir = 1
 	},
@@ -59988,7 +59983,7 @@
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 4
 	},
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron,
 /area/station/commons/fitness)
 "uEl" = (
@@ -63291,7 +63286,7 @@
 /area/station/engineering/atmos)
 "vOe" = (
 /obj/structure/table,
-/obj/item/ai_module/supplied/freeform,
+/obj/item/ai_module/law/supplied/freeform,
 /turf/open/floor/circuit,
 /area/station/ai/upload/chamber)
 "vOf" = (
@@ -65753,19 +65748,19 @@
 "wEY" = (
 /obj/machinery/airalarm/directional/north,
 /obj/structure/table/wood,
-/obj/item/food/grown/poppy{
+/obj/item/food/grown/flower/poppy{
 	pixel_y = 2
 	},
-/obj/item/food/grown/poppy{
+/obj/item/food/grown/flower/poppy{
 	pixel_y = 2
 	},
-/obj/item/food/grown/poppy{
+/obj/item/food/grown/flower/poppy{
 	pixel_y = 2
 	},
-/obj/item/food/grown/poppy{
+/obj/item/food/grown/flower/poppy{
 	pixel_y = 2
 	},
-/obj/item/food/grown/poppy{
+/obj/item/food/grown/flower/poppy{
 	pixel_y = 2
 	},
 /turf/open/floor/carpet,
@@ -66608,7 +66603,7 @@
 /obj/structure/closet/secure_closet/injection,
 /obj/item/book/bible,
 /obj/item/clothing/under/misc/burial,
-/obj/item/food/grown/harebell{
+/obj/item/food/grown/flower/harebell{
 	pixel_x = -3;
 	pixel_y = 4
 	},

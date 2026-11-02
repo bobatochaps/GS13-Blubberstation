@@ -517,7 +517,7 @@
 	},
 /obj/item/assembly/flash/handheld,
 /obj/item/assembly/flash/handheld,
-/obj/item/mmi,
+/obj/item/brain_processor/organic,
 /obj/item/assembly/prox_sensor{
 	pixel_x = -8;
 	pixel_y = 4
@@ -6547,7 +6547,7 @@
 /turf/open/floor/iron/dark,
 /area/station/maintenance/disposal/incinerator)
 "azD" = (
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/iron,
 /area/station/commons/fitness)
@@ -7654,7 +7654,7 @@
 /turf/open/floor/iron/dark,
 /area/station/ai/upload/chamber)
 "aEF" = (
-/obj/machinery/computer/upload/ai{
+/obj/machinery/ai_law_rack/base/core{
 	dir = 1
 	},
 /turf/open/floor/circuit,
@@ -7665,12 +7665,6 @@
 	pixel_y = -6
 	},
 /turf/closed/wall/r_wall,
-/area/station/ai/upload/chamber)
-"aEH" = (
-/obj/machinery/computer/upload/borg{
-	dir = 1
-	},
-/turf/open/floor/circuit,
 /area/station/ai/upload/chamber)
 "aEI" = (
 /obj/structure/window/reinforced/spawner/directional/north,
@@ -10654,7 +10648,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
-/obj/item/relic,
+/obj/item/assembly/relic,
 /turf/open/floor/iron/dark,
 /area/station/science/explab)
 "aTo" = (
@@ -12697,9 +12691,6 @@
 /area/station/security/prison)
 "bco" = (
 /obj/structure/table/wood/fancy,
-/obj/item/gun/ballistic/revolver/russian{
-	pixel_y = 16
-	},
 /obj/item/storage/box/matches{
 	pixel_x = -3;
 	pixel_y = 5
@@ -15908,9 +15899,9 @@
 /turf/open/floor/iron/white,
 /area/station/science/robotics/lab)
 "btd" = (
-/obj/item/mmi,
-/obj/item/mmi,
-/obj/item/mmi,
+/obj/item/brain_processor/organic,
+/obj/item/brain_processor/organic,
+/obj/item/brain_processor/organic,
 /obj/structure/table,
 /obj/machinery/camera/directional/south{
 	c_tag = "Robotics Surgery";
@@ -19425,7 +19416,6 @@
 /obj/structure/table,
 /obj/effect/decal/cleanable/cobweb,
 /obj/item/aicard,
-/obj/item/ai_module/reset,
 /obj/item/assembly/flash/handheld,
 /obj/machinery/light/directional/north,
 /obj/structure/extinguisher_cabinet/directional/west,
@@ -22035,6 +22025,7 @@
 	pixel_y = 4
 	},
 /obj/item/pen,
+/obj/item/storage/photo_album/chapel,
 /turf/open/floor/carpet/black,
 /area/station/service/chapel/office)
 "cds" = (
@@ -24235,7 +24226,7 @@
 	dir = 4
 	},
 /obj/effect/landmark/event_spawn,
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
 "cqd" = (
@@ -25153,8 +25144,8 @@
 /area/station/service/library/lounge)
 "cww" = (
 /obj/structure/table/wood,
-/obj/item/food/grown/poppy,
-/obj/item/food/grown/harebell,
+/obj/item/food/grown/flower/poppy,
+/obj/item/food/grown/flower/harebell,
 /obj/machinery/airalarm/directional/west,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
@@ -27042,7 +27033,7 @@
 /area/station/security/brig)
 "duj" = (
 /obj/structure/rack,
-/obj/item/mmi,
+/obj/item/brain_processor/organic,
 /obj/effect/spawner/random/maintenance,
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
@@ -31646,7 +31637,7 @@
 /obj/structure/cable,
 /obj/machinery/duct,
 /obj/effect/landmark/event_spawn,
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "god" = (
@@ -38452,6 +38443,7 @@
 	name = "Bar Requests console"
 	},
 /obj/effect/mapping_helpers/requests_console/supplies,
+/obj/item/storage/photo_album/bar,
 /turf/open/floor/wood,
 /area/station/service/bar/backroom)
 "kFR" = (
@@ -42714,11 +42706,10 @@
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted{
 	dir = 1
 	},
-/obj/item/ai_module/supplied/freeform{
+/obj/item/ai_module/law/supplied/freeform{
 	pixel_x = -1;
 	pixel_y = 8
 	},
-/obj/item/ai_module/reset,
 /turf/open/floor/iron/dark,
 /area/station/ai/upload/chamber)
 "nrW" = (
@@ -45436,7 +45427,7 @@
 /area/station/security/prison/mess)
 "oXe" = (
 /obj/structure/table/glass,
-/obj/item/mmi,
+/obj/item/brain_processor/organic,
 /obj/item/clothing/mask/balaclava,
 /obj/effect/turf_decal/tile/red/anticorner/contrasted{
 	dir = 8
@@ -46625,6 +46616,7 @@
 	pixel_y = 8
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/item/storage/photo_album/library,
 /turf/open/floor/iron/dark,
 /area/station/service/library)
 "pHb" = (
@@ -50755,6 +50747,7 @@
 "saL" = (
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /obj/structure/table,
+/obj/item/storage/photo_album/prison,
 /turf/open/floor/iron/white,
 /area/station/security/prison/mess)
 "saS" = (
@@ -55537,7 +55530,7 @@
 /area/station/hallway/primary/central/fore)
 "uOe" = (
 /obj/effect/turf_decal/tile/purple/half/contrasted,
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
 "uOn" = (
@@ -55756,7 +55749,7 @@
 /area/station/security/brig)
 "uVi" = (
 /obj/structure/table/wood,
-/obj/item/food/grown/poppy,
+/obj/item/food/grown/flower/poppy,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/station/service/chapel)
@@ -60711,7 +60704,7 @@
 /area/station/service/lawoffice)
 "xJU" = (
 /obj/structure/table/wood,
-/obj/item/food/grown/harebell,
+/obj/item/food/grown/flower/harebell,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/station/service/chapel)
@@ -92412,7 +92405,7 @@ aAB
 fLI
 mtB
 wEJ
-aEH
+wEJ
 aAB
 aGr
 awd

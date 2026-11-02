@@ -1,11 +1,3 @@
-/turf/open/floor/mineral/sandstone_floor
-	name = "sandstone floor"
-	icon_state = "sandstonef"
-	floor_tile = /obj/item/stack/tile/mineral/sandstone
-	icon = 'modular_gs/icons/turf/floors.dmi'
-	damaged_dmi = 'modular_gs/icons/turf/floors.dmi'
-	icons = list("sandstonef","sandstonef_dam")
-
 /turf/open/floor/mineral/crimsonstone_floor
 	name = "crimson floor"
 	icon_state = "crimsonstone"
@@ -29,12 +21,6 @@
 	barefootstep = FOOTSTEP_WOOD_BAREFOOT
 	clawfootstep = FOOTSTEP_WOOD_CLAW
 	heavyfootstep = FOOTSTEP_GENERIC_HEAVY
-
-/turf/open/floor/concrete/
-	name = "concrete"
-	icon = 'modular_gs/icons/turf/floors.dmi'
-	icon_state = "concrete"
-	baseturfs = /turf/open/misc/asteroid
 
 /turf/open/floor/concrete/smooth
 	icon = 'modular_gs/icons/turf/floors.dmi'

@@ -104,6 +104,7 @@ export type Quirk = {
   value: number;
   customizable: boolean;
   customization_options?: string[];
+  overwrite_wg_prefs: boolean; //GS13 EDIT
 };
 
 // SKYRAT EDIT START
@@ -213,6 +214,7 @@ export type CharacterPreferencesData = {
   manually_rendered_features: Record<string, string>;
 
   // GS13 EDIT
+  master_wg_pref: Record<string, unknown>;
   wg_prefs: Record<string, unknown>;
   helplessness_prefs: Record<string, unknown>;
   blueberry_prefs: Record<string, unknown>;
@@ -278,7 +280,6 @@ export type PreferencesMenuData = {
   selected_quirks: string[];
   selected_personalities: typePath[] | null;
   max_personalities: number;
-  mood_enabled: BooleanLike;
   species_disallowed_quirks: string[];
 
   antag_bans?: string[];
@@ -295,6 +296,7 @@ export type ServerData = {
   jobs: {
     departments: Record<string, Department>;
     jobs: Record<string, Job>;
+    jobs_sorted: string[];
   };
   names: {
     types: Record<string, Name>;

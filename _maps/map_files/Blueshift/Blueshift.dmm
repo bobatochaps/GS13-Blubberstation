@@ -11644,11 +11644,7 @@
 	name = "High-Risk Modules";
 	req_access = list("ai_upload")
 	},
-/obj/item/ai_module/supplied/protect_station,
-/obj/item/ai_module/reset/purge{
-	pixel_x = -3;
-	pixel_y = -3
-	},
+/obj/item/ai_module/law/supplied/protect_station,
 /turf/open/floor/iron,
 /area/station/ai/upload/chamber)
 "clo" = (
@@ -18081,7 +18077,7 @@
 	name = "medbay camera";
 	network = list("ss13","medbay")
 	},
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
@@ -23262,8 +23258,8 @@
 /obj/item/clothing/under/misc/burial,
 /obj/item/clothing/under/misc/burial,
 /obj/item/clothing/under/misc/burial,
-/obj/item/food/grown/harebell,
-/obj/item/food/grown/harebell,
+/obj/item/food/grown/flower/harebell,
+/obj/item/food/grown/flower/harebell,
 /obj/machinery/newscaster/directional/west,
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/dark,
@@ -24202,7 +24198,7 @@
 /area/station/maintenance/port/upper)
 "eCq" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/dark/side{
 	dir = 6
 	},
@@ -25457,12 +25453,12 @@
 /obj/structure/table,
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/window/reinforced/spawner/directional/east,
-/obj/item/ai_module/core/freeformcore{
+/obj/item/ai_module/law/core/freeformcore{
 	pixel_x = 3;
 	pixel_y = 3
 	},
-/obj/item/ai_module/core/full/custom,
-/obj/item/ai_module/core/full/asimov{
+/obj/item/ai_module/law/core/full/custom,
+/obj/item/ai_module/law/core/full/asimov{
 	pixel_x = -3;
 	pixel_y = -3
 	},
@@ -32165,9 +32161,6 @@
 /area/station/maintenance/abandon_exam/cat)
 "gbL" = (
 /obj/effect/turf_decal/delivery/white,
-/obj/machinery/computer/upload/borg{
-	dir = 4
-	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/ai/upload/chamber)
 "gbM" = (
@@ -37443,7 +37436,9 @@
 	},
 /area/station/hallway/secondary/entry)
 "hcy" = (
-/obj/effect/turf_decal/tile/blue/full,
+/obj/effect/turf_decal/tile/purple/anticorner{
+	dir = 1
+	},
 /turf/open/floor/iron/dark/smooth_large/airless,
 /area/space/nearstation)
 "hcK" = (
@@ -41550,9 +41545,7 @@
 /turf/open/floor/wood,
 /area/station/hallway/primary/port)
 "hRi" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
+/obj/effect/turf_decal/tile/purple/half,
 /turf/open/floor/iron/dark/smooth_large/airless,
 /area/space/nearstation)
 "hRq" = (
@@ -51256,7 +51249,7 @@
 /obj/effect/turf_decal/trimline/blue/line{
 	dir = 8
 	},
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/dark,
 /area/station/medical/treatment_center)
 "jKx" = (
@@ -57543,13 +57536,8 @@
 /turf/open/floor/plating,
 /area/station/maintenance/fore/upper)
 "kRw" = (
-/obj/effect/turf_decal/tile/blue/half{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue/half{
-	dir = 4
-	},
 /obj/machinery/light/floor,
+/obj/effect/turf_decal/tile/purple/full,
 /turf/open/floor/iron/dark/smooth_large/airless,
 /area/space/nearstation)
 "kRD" = (
@@ -63087,7 +63075,7 @@
 /area/station/maintenance/department/chapel)
 "lVn" = (
 /obj/structure/table,
-/obj/item/modular_computer/pda/clown,
+/obj/item/modular_computer/pda/crew/clown,
 /turf/open/floor/noslip,
 /area/station/maintenance/gag_room)
 "lVA" = (
@@ -64111,10 +64099,7 @@
 	name = "Secure Tech Cabinet"
 	},
 /obj/structure/cable,
-/obj/item/ai_module/reset{
-	pixel_y = 8
-	},
-/obj/item/ai_module/core/full/custom{
+/obj/item/ai_module/law/core/full/custom{
 	pixel_y = -4
 	},
 /obj/machinery/camera/autoname/engineering/directional/east,
@@ -65617,11 +65602,11 @@
 /area/station/medical/break_room)
 "mwI" = (
 /obj/structure/table/wood,
-/obj/item/food/grown/poppy/geranium{
+/obj/item/food/grown/flower/poppy/geranium{
 	pixel_x = 6;
 	pixel_y = 6
 	},
-/obj/item/food/grown/poppy/lily,
+/obj/item/food/grown/flower/poppy/lily,
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/station/service/chapel/funeral)
@@ -69060,6 +69045,10 @@
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/prison_upper)
+"neq" = (
+/obj/effect/turf_decal/tile/purple/anticorner,
+/turf/open/floor/iron/dark/smooth_large/airless,
+/area/space/nearstation)
 "nes" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
@@ -74734,7 +74723,6 @@
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
 	},
-/obj/item/storage/photo_album/captain,
 /obj/item/camera,
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/structure/cable,
@@ -78571,10 +78559,10 @@
 /obj/item/seeds/cotton/durathread,
 /obj/item/seeds/potato/sweet,
 /obj/item/grown/cotton,
-/obj/item/food/grown/poppy,
-/obj/item/food/grown/poppy/geranium,
-/obj/item/food/grown/poppy/lily,
-/obj/item/food/grown/harebell,
+/obj/item/food/grown/flower/poppy,
+/obj/item/food/grown/flower/poppy/geranium,
+/obj/item/food/grown/flower/poppy/lily,
+/obj/item/food/grown/flower/harebell,
 /obj/item/food/grown/garlic,
 /obj/item/food/grown/onion,
 /obj/item/food/grown/peas,
@@ -78971,15 +78959,11 @@
 /area/station/command/gateway)
 "oWl" = (
 /obj/structure/table,
-/obj/item/ai_module/supplied/quarantine{
+/obj/item/ai_module/law/supplied/quarantine{
 	pixel_x = 3;
 	pixel_y = 3
 	},
-/obj/item/ai_module/supplied/freeform,
-/obj/item/ai_module/reset{
-	pixel_x = -3;
-	pixel_y = -3
-	},
+/obj/item/ai_module/law/supplied/freeform,
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
 /turf/open/floor/iron,
@@ -84900,7 +84884,7 @@
 /area/station/maintenance/starboard/fore)
 "qeB" = (
 /obj/effect/turf_decal/delivery/white,
-/obj/machinery/computer/upload/ai{
+/obj/machinery/ai_law_rack/base/core{
 	dir = 8
 	},
 /turf/open/floor/iron/dark/smooth_large,
@@ -86420,8 +86404,8 @@
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/service)
 "qsv" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
+/obj/effect/turf_decal/tile/purple/anticorner{
+	dir = 4
 	},
 /turf/open/floor/iron/dark/smooth_large/airless,
 /area/space/nearstation)
@@ -87488,6 +87472,12 @@
 	},
 /turf/open/floor/iron,
 /area/station/security/execution/transfer)
+"qBl" = (
+/obj/effect/turf_decal/tile/purple/anticorner{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large/airless,
+/area/space/nearstation)
 "qBm" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/wood/parquet,
@@ -93720,7 +93710,7 @@
 /area/station/hallway/primary/central)
 "rJL" = (
 /obj/structure/table/wood,
-/obj/item/food/grown/harebell,
+/obj/item/food/grown/flower/harebell,
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/station/service/chapel/funeral)
@@ -94111,9 +94101,9 @@
 	name = "science camera";
 	network = list("ss13","rd")
 	},
-/obj/item/mmi,
-/obj/item/mmi,
-/obj/item/mmi,
+/obj/item/brain_processor/organic,
+/obj/item/brain_processor/organic,
+/obj/item/brain_processor/organic,
 /turf/open/floor/iron,
 /area/station/science/robotics)
 "rOH" = (
@@ -96252,8 +96242,8 @@
 	name = "High-Risk Modules";
 	req_access = list("ai_upload")
 	},
-/obj/item/ai_module/zeroth/onehuman,
-/obj/item/ai_module/supplied/oxygen{
+/obj/item/ai_module/law/zeroth/onehuman,
+/obj/item/ai_module/law/supplied/oxygen{
 	pixel_x = -3;
 	pixel_y = -3
 	},
@@ -110202,6 +110192,11 @@
 	},
 /turf/open/floor/iron/dark/side,
 /area/station/commons/dorms)
+"uQT" = (
+/obj/structure/table/wood,
+/obj/item/storage/photo_album/prison,
+/turf/open/floor/iron,
+/area/station/security/prison/mess)
 "uQZ" = (
 /obj/structure/chair/stool/directional/west,
 /obj/effect/landmark/start/hangover,
@@ -113942,7 +113937,7 @@
 /obj/item/stack/sheet/plasteel{
 	amount = 10
 	},
-/obj/item/mmi,
+/obj/item/brain_processor/organic,
 /obj/item/assembly/prox_sensor,
 /obj/item/assembly/prox_sensor,
 /turf/open/floor/plating,
@@ -127032,8 +127027,8 @@
 /area/station/maintenance/department/medical)
 "xZo" = (
 /obj/structure/table/reinforced,
-/obj/item/mmi,
-/obj/item/mmi,
+/obj/item/brain_processor/organic,
+/obj/item/brain_processor/organic,
 /obj/item/bodypart/chest/robot,
 /obj/structure/extinguisher_cabinet/directional/east,
 /turf/open/floor/iron/dark,
@@ -166626,7 +166621,7 @@ sSP
 sSI
 sSP
 tRe
-eZn
+uQT
 caC
 xOu
 xOu
@@ -238359,9 +238354,9 @@ soz
 soz
 soz
 soz
+neq
 hcy
-hcy
-hcy
+qsv
 gLc
 gLc
 gLc
@@ -238616,7 +238611,7 @@ nvJ
 nvJ
 nvJ
 soz
-qsv
+pxb
 kRw
 hRi
 gLc
@@ -238873,8 +238868,8 @@ ulx
 ulx
 nvJ
 soz
-hcy
-hcy
+qBl
+qsv
 hcy
 avR
 soz
