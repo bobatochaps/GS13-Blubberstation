@@ -812,6 +812,7 @@
 /obj/item/quadborg_nose/interact_with_atom(atom/target, mob/living/user, list/modifiers)
 	if(!HAS_TRAIT(target, TRAIT_AFFECTION_AVERSION)) // Checks for Affection Aversion trait
 		do_attack_animation(target, null, src)
+		playsound(borg, 'sound/mobs/humanoids/human/sniff/female_sniff.ogg', 50, 1)
 		user.visible_message(span_notice("[user] [pick("nuzzles", "pushes", "boops")] \the [target.name] with their nose!"))
 		return ITEM_INTERACT_SUCCESS
 	else
